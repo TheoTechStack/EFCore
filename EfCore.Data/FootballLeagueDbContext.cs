@@ -13,4 +13,28 @@ public class FootballLeagueDbContext : DbContext
         //optionsBuilder.UseSqlServer("");
         optionsBuilder.UseSqlite("Data Source=FootballLeague_Efcore.db");
     }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.Entity<Team>().HasData(
+            new Team
+            {
+                TeamId = 1,
+                Name = "Manchester FC",
+                CreatedDate = DateTimeOffset.UtcNow.DateTime
+            },    
+            new Team
+            {
+                TeamId = 2,
+                Name = "Juventus",
+                CreatedDate = DateTimeOffset.UtcNow.DateTime
+            },
+            new Team
+            {
+                TeamId = 3,
+                Name = "Chelsea",
+                CreatedDate = DateTimeOffset.UtcNow.DateTime
+            }
+        );
+    }
 }
