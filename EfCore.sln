@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfCore.Data", "EfCore.Data\EfCore.Data.csproj", "{456FF36F-D481-421D-B7D4-6BD7614E56EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfCore.Domain", "EfCore.Domain\EfCore.Domain.csproj", "{5715BA87-6D76-4656-881A-65E38B440165}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfCore.Console", "EfCore.Console\EfCore.Console.csproj", "{544D54C7-D001-4899-9CD2-83C7E65D0DDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{456FF36F-D481-421D-B7D4-6BD7614E56EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{456FF36F-D481-421D-B7D4-6BD7614E56EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{456FF36F-D481-421D-B7D4-6BD7614E56EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{456FF36F-D481-421D-B7D4-6BD7614E56EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5715BA87-6D76-4656-881A-65E38B440165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5715BA87-6D76-4656-881A-65E38B440165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5715BA87-6D76-4656-881A-65E38B440165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5715BA87-6D76-4656-881A-65E38B440165}.Release|Any CPU.Build.0 = Release|Any CPU
+		{544D54C7-D001-4899-9CD2-83C7E65D0DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{544D54C7-D001-4899-9CD2-83C7E65D0DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{544D54C7-D001-4899-9CD2-83C7E65D0DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{544D54C7-D001-4899-9CD2-83C7E65D0DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
